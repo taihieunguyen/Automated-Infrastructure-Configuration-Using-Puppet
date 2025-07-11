@@ -1,0 +1,4 @@
+Demo Youtube HA-MySQL:  https://youtu.be/uO0jtLCfBeQ
+Demo Youtube Nginx: https://youtu.be/BBK9JyYm6uk
+Demo Youtube Wordpress: trên Apache: https://www.youtube.com/watch?v=-k-L-BhjvMk
+Link drive video demo: https://drive.google.com/drive/folders/1dN8OmJ7uiS4EORPB6UfR9SPt6cIYnOyJ?usp=sharing
