@@ -1,8 +1,8 @@
-# Automated Infrastructure Configuration Using Puppet
+# Automated Infrastructure Configuration with Puppet for MySQL High Availability
 
 ## Project Overview
 
-This project implements an automated infrastructure configuration solution using Puppet, a robust configuration management platform. It streamlines the deployment and management of infrastructure components across multiple servers, ensuring consistency, scalability, and reduced manual intervention. The solution leverages Puppet's declarative language and modular design to enforce desired system states and automate complex workflows.
+This project leverages Puppet to automate infrastructure configuration, with a primary focus on deploying a MySQL High Availability (HA) setup. It streamlines the management of infrastructure components across multiple servers, ensuring consistency, scalability, and reduced manual intervention. Using Puppet's declarative language and modular design, the solution automates the deployment of MySQL HA, alongside services like Nginx, to deliver a robust and resilient infrastructure.
 
 Key components include:
 
@@ -18,7 +18,7 @@ Key components include:
 
 The following diagram illustrates the infrastructure and data flow of the Puppet-based configuration management system:
 
-![Infrastructure Architecture]()
+![Infrastructure Architecture](https://github.com/taihieunguyen/Automated-Infrastructure-Configuration-Using-Puppet/blob/main/Architecture.png?raw=true)
 
 ---
 
@@ -33,16 +33,6 @@ The following diagram illustrates the infrastructure and data flow of the Puppet
 
 ---
 
-## Repository Structure
-
-- **/manifests/**: Puppet manifests defining the desired state of infrastructure components.
-- **/modules/**: Reusable Puppet modules for configuring services and applications.
-- **/hiera/**: Hiera configuration files for environment-specific data.
-- **/diagrams/**: Architectural diagrams, including Infrastructure and Workflow diagrams.
-- **/tasks/**: Puppet Bolt tasks for ad-hoc automation and orchestration.
-- **/docs/**: Documentation and guides for deployment and management.
-
----
 
 ## Prerequisites
 
